@@ -14,7 +14,7 @@ var clear = function(){
     
 }*/ 
 
-var makeCircle = function(e){
+var makeCircle = function(){
     
     var circle = {
 	cx: e.offsetX,
@@ -57,7 +57,7 @@ var makeCircle = function(e){
 };
 
 var drawCircle = function(e){
-    var circle = makeCircle(e);
+    var circle = makeCircle();
     circle.display();
 }
     
